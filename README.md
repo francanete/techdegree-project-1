@@ -1,2 +1,1 @@
-# techdegree-project-1
- Techdegree Project 1
+# Web Development Techdegree: Project 1
