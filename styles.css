@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(255, 255, 255);
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(46, 46, 46);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -42,9 +42,11 @@ a:hover {
 
 .nav .name {
     display: block;
+    text-transform: uppercase;
     margin-right: auto;
     color: white;
 }
+ 
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -79,7 +81,7 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  /* background-color: radial-gradient( #efefef93, white); */
+  /* background-color: radial-gradient( #efefef93, rgba(255, 255, 255, 0)); */
   background: white;
   color: black;
   padding: 10px;
