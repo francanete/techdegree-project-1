@@ -66,6 +66,25 @@ header {
   padding-top: 60px;
   margin-bottom: 5rem;
 }
+
+.header-resume {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  background: linear-gradient(to bottom, #f5f6fc00, #f7f5f0), 
+  url('images/resume-background.jpg') no-repeat top center ;
+  background-size: cover;
+}
+
+.header-hobbies {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  background: linear-gradient(to bottom, #f5f6fc00, #f7f5f0), 
+  url('images/hobbies-background.jpg') no-repeat top center ;
+  background-size: cover;
+}
+
 header {
   line-height: 1.5;
 }
@@ -88,10 +107,11 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
+
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(255, 255, 255);
 }
 .card {
   margin: 30px;
@@ -104,6 +124,43 @@ header .profile-image:hover {
   box-shadow: 0px 1px 6px 0.3px rgba(49, 49, 49, 0.342);
   transition: all .5s;
 }
+
+.card-resume {
+  margin-bottom: 30px;
+  padding: 20px 40px 40px;
+  max-width: 80%;
+  margin-left: 10%;
+  text-align: left;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 1px 6px 0.3px rgba(49, 49, 49, 0.342);
+  transition: all .5s;
+}
+
+.resume-org {
+  border-radius: 6px;
+  font-size: 0.75rem;
+  display: inline-block;
+  background: rgba(83, 83, 83, .5);
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+  align-items: left;
+}
+
+.card-resume h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card-resume h3 {
+  margin-top: 3rem;
+}
+
+.card-resume ul {
+  text-align: left;
+}
+
 .card:hover {
   box-shadow: 0px 1px 10px 0.6px rgba(49, 49, 49, 0.479);
 }
