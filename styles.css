@@ -93,11 +93,11 @@ header .profile-image {
   width: 150px;
   /* height: 300px; */
   border-radius: 20% 0 20%;
-  border: 3px solid white;
+  border: 3px solid rgb(61, 61, 61);
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: rotateY(180deg);
 }
 .tag {
   /* background-color: radial-gradient( #efefef93, rgba(255, 255, 255, 0)); */
@@ -145,7 +145,6 @@ header .profile-image:hover {
   color: white;
   padding: 5px 10px;
   margin: 2px;
-  align-items: left;
 }
 
 .card-resume h2 {
@@ -174,7 +173,7 @@ header .profile-image:hover {
   
 }
 
-#hobby-title {
+.hobby-title {
   text-align: center;
 }
 
@@ -247,10 +246,8 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
