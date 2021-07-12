@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.menu-bar {
   width: 100%;
   background: rgb(46, 46, 46);
   min-height: 30px;
@@ -113,7 +113,7 @@ header .profile-image:hover {
   background-color: #222;
   color: rgb(255, 255, 255);
 }
-.card {
+.content-box {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -160,7 +160,7 @@ header .profile-image:hover {
   text-align: left;
 }
 
-.card:hover {
+.content-box:hover {
   box-shadow: 0px 1px 10px 0.6px rgba(49, 49, 49, 0.479);
 }
 
@@ -245,7 +245,7 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
-  .flex {
+  .content-container {
       display: flex; 
       max-width: 1200px;
       justify-content: space-around;
